@@ -6,20 +6,47 @@
     <title> Gaëlle DELOISON </title>
     <link rel="stylesheet" type="text/css" href="css/cv.css"> 
     <script scr="script.js"></script>
+    <style type="text/css"> 
+    .wrapper1
+    {display: grid; 
+    grid-template-columns: 100%;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+    text-align : center;
+    padding-top: 3%;
+    background-color: grey; 
+    color: #FFFFFF}
+    .photo {grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: 1;
+      grid-row-end: 2;}
+      .nom {grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: 2;
+      grid-row-end: 3;}
+       .age {grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: 3;
+      grid-row-end: 4;}
+      .diplome {grid-column-start: 1;
+      grid-column-end:2;
+      grid-row-start: 4;
+      grid-row-end: 5;}
+    </style> 
   </head>
   <body>  
-    <h1>dislay : grid; </h1>
     <header>
-      <div>
-        <div>
-    Gaëlle DELOISON</h1>
-    <div align="center">
+        <div class="wrapper1">
     <div class="photo"> 
       <img src="illustrationgaelle.png" alt="photo Gaelle" width="200">
-    </img></div>
-    <h1> 
-       <div> 21 ans </div>
-    <div>Bachelor 3 Webmarketing & Social Media</div>
+    </img> </div>
+    <div class="nom">
+    <h1> Gaëlle DELOISON </h1>
+  </div> 
+       <div class="age"> 
+        <h1> 21 ans </h1> </div>
+    <div class="diplome"> 
+      <h1>Bachelor 3 Webmarketing & Social Media </h1> </div> 
+  </div> 
 </header>
     <div>
       <h2 class=white> Mes expériences </h2>
